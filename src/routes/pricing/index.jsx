@@ -1,5 +1,6 @@
 import diamonds from '../../assets/images/diamonds.png'
 import tray from '../../assets/images/tray.png'
+import tick from '../../assets/icons/tick.png'
 const Pricing = () => {
     return (
         <div className='py-20 container'>
@@ -13,46 +14,46 @@ const Pricing = () => {
                     <div className="text-base font-bold mt-4">Includes:</div>
                     <ul className='mt-5 space-y-5'>
                         <li className="flex gap-3 items-center">
-                            <img src="/assets/icons/tick.png" alt="tick" />
+                            <img src={tick} alt="tick" />
                             Equipment Rental - Asset Delivery / Pickup
                         </li>
                         <li className="flex gap-3 items-center">
-                            <img src="/assets/icons/tick.png" alt="tick" />
+                            <img src={tick} alt="tick" />
                             Branded company dashboard setup
                         </li>
                         <li className="flex gap-3 items-center">
-                            <img src="/assets/icons/tick.png" alt="tick" />
+                            <img src={tick} alt="tick" />
                             24/7 GPS cellular data monitoring of SA products + support
                         </li>
                         <li className="flex gap-3 items-center">
-                            <img src="/assets/icons/tick.png" alt="tick" />
+                            <img src={tick} alt="tick" />
                             Online access 24/7 by computer or mobile app to your account SA platform accessed through savvy-assets.com
                         </li>
                         <li className="flex gap-3 items-center">
-                            <img src="/assets/icons/tick.png" alt="tick" />
+                            <img src={tick} alt="tick" />
                             Custom reporting requirements upon client request
                         </li>
                         <li className="flex gap-3 items-center">
-                            <img src="/assets/icons/tick.png" alt="tick" />
+                            <img src={tick} alt="tick" />
                             Custom notification programs upon client request
                         </li>
                         <li className="flex gap-3 items-center">
-                            <img src="/assets/icons/tick.png" alt="tick" />
+                            <img src={tick} alt="tick" />
                             Serialized inventory asset management
                         </li>
                         <li className="flex gap-3 items-center">
-                            <img src="/assets/icons/tick.png" alt="tick" />
+                            <img src={tick} alt="tick" />
                             WMS systems integrations assistance / data reporting
                         </li>
                     </ul>
                     <div className="text-xl font-bold mt-10">Service Terms 36 Months / 24 Month Renew Option</div>
                     <ul className='mt-5 space-y-5'>
                         <li className="flex gap-3 items-center">
-                            <img src="/assets/icons/tick.png" alt="tick" />
+                            <img src={tick} alt="tick" />
                             Discounts based on volume of assets and prepayment
                         </li>
                         <li className="flex gap-3 items-center">
-                            <img src="/assets/icons/tick.png" alt="tick" />
+                            <img src={tick} alt="tick" />
                             Minimum multi year commitments required for volume clients
                         </li>
                     </ul>

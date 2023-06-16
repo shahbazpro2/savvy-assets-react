@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import homebg1 from '../../assets/images/homebg1.png'
 import tray from '../../assets/images/tray.png'
 const Top = () => {
@@ -22,7 +23,9 @@ const Top = () => {
                         Data services, analytics and asset reporting for customer captive pallet fleets as well as other types of equipment: roll containers, bins, crates, boxes etc are available in turn key rental fleet programs.
                     </div>
                     <div className="text-start">
-                        <button className="btn">Start Now</button>
+                        <Link to='/rental'>
+                            <a className="btn">Start Now</a>
+                        </Link>
                     </div>
                 </div>
                 <div className='flex justify-end items-center h-full'>

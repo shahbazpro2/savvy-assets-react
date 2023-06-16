@@ -14,7 +14,9 @@ const Footer = () => {
                     <div className="col-span-12 lg:col-span-8 flex flex-col items-center justify-center ">
                         <div className="py-7 border-b border-[#515151] flex items-center justify-center w-full">
                             <ul className='flex flex-col lg:flex-row items-center gap-10 lg:gap-20'>
-                                <li className='text-lg'>Resources</li>
+                                <Link to="/resources">
+                                    <li className='text-lg'>Resources</li>
+                                </Link>
                                 <Link to="/rental">
                                     <li className='text-lg'>Rental Application</li>
                                 </Link>
@@ -28,7 +30,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className='text-sm mt-7 text-[#838383]'>
-                            Copyright © {new Date().getFullYear()} Sameepam.com. All Rights Reserved
+                            Copyright © {new Date().getFullYear()} Savvy Assets Inc. All rights reserved
                         </div>
 
                     </div>

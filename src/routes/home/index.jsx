@@ -6,6 +6,7 @@ import Vision from "./Vision"
 import Homebg1 from '../../assets/images/homebg1.png'
 import Homebg2 from '../../assets/images/homebg2.png'
 import Tray from '../../assets/images/tray.png'
+import { Link } from "react-router-dom"
 
 const Home = () => {
     return (
@@ -27,7 +28,9 @@ const Home = () => {
                         <div className="text-lg font-medium">The smartest pallet period.</div>
                         <div className="text-lg">The Savvy Assets Supply Chain Rental Programs create an intelligent, transparent and digital control system to manage assets and product performance through supply chain operations with the latest IOT technologies. </div>
                         <div className="text-center">
-                            <button className="btn">Start Now</button>
+                            <Link to="/rental">
+                                <a className="btn">Start Now</a>
+                            </Link>
                         </div>
                     </div>
                     <div className='flex justify-end items-center h-full'>

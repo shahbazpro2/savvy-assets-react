@@ -13,6 +13,7 @@ import Rental from "./routes/rental/Rental";
 import Sales from "./routes/sales/Sales";
 import Contact from "./routes/contact";
 import Platform from "./routes/platform";
+import Blog from "./routes/blog";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
         <Route path="/rental" element={<Rental />} />
         <Route path="/sales" element={<Sales />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/resources" element={<Blog />} />
       </Route>
 
 

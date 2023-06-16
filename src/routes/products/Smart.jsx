@@ -1,5 +1,14 @@
 import trayfront from '../../assets/images/trayfront.png'
+import file from '../../assets/images/Savvy Assets SA1 Specification Sheet . Smart Plastic Pallet 2023.jpeg'
 const Smart = () => {
+
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = file;
+        link.download = 'Savvy Assets SA1 Specification Sheet . Smart Plastic Pallet 2023';
+        link.click();
+    };
+
     return (
         <div className='py-20 container'>
             <div className='lg:w-[600px] m-auto text-center space-y-3'>
@@ -46,6 +55,10 @@ const Smart = () => {
                             </tr>
                         </tbody>
                     </table>
+
+                    <div className="mt-14">
+                        <button className='btn' onClick={handleDownload}>Download Spec</button>
+                    </div>
                 </div>
             </div>
         </div>
