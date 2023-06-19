@@ -1,7 +1,7 @@
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link, useLocation } from 'react-router-dom'
-import Logo from '../assets/icons/logo.png'
+import Logo from '../assets/images/logo.png'
 
 
 
@@ -40,8 +40,10 @@ const Header = () => {
                                         </Disclosure.Button>
                                     </div>
                                     <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between py-5">
-                                        <div className='sm:w-[100px] lg:w-[150px] flex sm:block justify-center lg:justify-start'>
-                                            <img src={Logo} alt="logo" className='w-full' />
+                                        <div className='w-[150px]  flex sm:block justify-center lg:justify-start'>
+                                            <Link to="/">
+                                                <img src={Logo} alt="logo" className='w-full' />
+                                            </Link>
                                         </div>
                                         <div className="hidden sm:ml-6 sm:block">
                                             <div className="flex space-x-4 items-center h-full">
@@ -62,7 +64,9 @@ const Header = () => {
                                         </div>
                                         <div className="absolute inset-y-0 right-0 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 sm:flex hidden">
                                             <div>
-                                                <button className="btn">Login</button>
+                                                <Link to="/login">
+                                                    <button className="btn">Login</button>
+                                                </Link>
                                             </div>
 
                                         </div>

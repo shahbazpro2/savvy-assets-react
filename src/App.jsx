@@ -14,6 +14,7 @@ import Sales from "./routes/sales/Sales";
 import Contact from "./routes/contact";
 import Platform from "./routes/platform";
 import Blog from "./routes/blog";
+import Login from "./routes/login/Login";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,6 +28,7 @@ const router = createBrowserRouter(
         <Route path="/sales" element={<Sales />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resources" element={<Blog />} />
+        <Route path="/login" element={<Login />} />
       </Route>
 
 
